@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_flight_routes_api_1687449599678-push-trigger-input-set
+  identifier: Build_flight_routes_api_1687449599678pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_flight_routes_api_1687449599678
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
