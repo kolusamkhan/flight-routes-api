@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_flight_routes_api_1687449599678-pr-trigger-input-set
+  identifier: Build_flight_routes_api_1687449599678prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_flight_routes_api_1687449599678
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
